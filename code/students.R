@@ -179,5 +179,6 @@ registro <- data.frame(
   Genero = "female",
   Raza = "group C"
 )
+registro
 
-predict(modeloAmbas, registro)
+predict(modeloLEGR, registro)
