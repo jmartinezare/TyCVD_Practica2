@@ -15,7 +15,7 @@ Los ficheros de datos están en el directorio data:
 
 - **Students.csv**:        Fichero dataset original obtenido de https://www.kaggle.com/spscientist/students-performance-in-exams
 - **ResultadoNotas.csv**:  Fichero resultante después de realizar el pre-procesamiento recogido en el fichero de código R.
-- **NotasPredichas.csv**:  Fichero con la partición de datos de test del modelo de precicción y las correspondiente notas estimadas.
+- **NotasPredichas.csv**:  Fichero con la partición de datos de test del modelo de predicción y las correspondiente notas estimadas.
 
 ## Librerías necesarias
 
