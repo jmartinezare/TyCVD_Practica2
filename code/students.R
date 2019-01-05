@@ -266,8 +266,8 @@ colnames(TestResult)<-c("Real","Predecido", "Porcentaje", "Dif%", "Dif%Pos", "Di
 kable(TestResult)
 
 
-#Guardar datos predichos
-write.csv(TestResult, file = "NotasPredichas.csv" )
+#Guardar datos estimados
+write.csv(TestResult, file = "NotasEstimadas.csv" )
 
 mean(TestResult$`Dif%Pos`)
 mean(TestResult$DifPos)
